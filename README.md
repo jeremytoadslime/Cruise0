@@ -15,8 +15,8 @@ This Proof of Concept was prepared for Cruise0 to demonstrate how Okta, using th
 #### **To run this app locally:**
 
 1. **Clone the repository:**  
-`git clone https://github.com/jeremytoadslime/cruise0-PoC.git`  
-`cd cruise0-PoC`
+`git clone https://github.com/jeremytoadslime/Cruise0.git`  
+`cd Cruise0`
 
 1. **Install dependencies:**  
 `npm install`
