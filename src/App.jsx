@@ -38,7 +38,8 @@ function App() {
         style={{ width: '400px', marginBottom: '1.5rem' }}
       />
 
-      {/* Display error message if present */}
+      {/* Display error message if present.
+          One common source is a post-login action (trigger) blocking access for users who haven't verified their email. */}
       {error && <p style={{ color: 'red' }}>{error.message}</p>}
 
       {!isAuthenticated ? (
